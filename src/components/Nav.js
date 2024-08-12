@@ -1,5 +1,5 @@
 import React from "react";
-import { BiHomeAlt, BiUser, BiSolidGraduation } from "react-icons/bi";
+import { BiHomeAlt, BiUser, BiSolidGraduation, BiAperture} from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
 import { Link } from "react-scroll";
 
@@ -32,6 +32,15 @@ const Nav = () => {
             <BiUser />
           </Link>
           <Link
+            to="experience"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <BsBriefcase />
+          </Link>
+          <Link
             to="academics"
             activeClass="active"
             smooth={true}
@@ -56,7 +65,7 @@ const Nav = () => {
             spy={true}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
-            <BsBriefcase />
+          <BiAperture />
           </Link>
           <Link
             to="contact"
