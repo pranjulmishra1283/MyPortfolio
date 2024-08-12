@@ -11,7 +11,7 @@ const Experience = () => {
     });
 
     return (
-        <section className="section" id="about" ref={ref}>
+        <section className="section" id="experience" ref={ref}>
             <div className="container mx-atuo ml-24">
                 <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
                     {/* img */}
@@ -20,8 +20,18 @@ const Experience = () => {
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.3 }}
-                        className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
-                    ></motion.div>
+                        className="flex-1 bg-experience bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+
+                    >
+                        <h2 className="h2 mb-6">
+                            <span className="text-gradient"> Proffesional </span> <br />
+                            <span className="font-semibold">Experience</span>
+                        </h2>
+                        <h3 className="h3 max-w-[455px] mb-16">
+                            This is my current Proffesional Experience.
+                        </h3>
+                    </motion.div>
+
                     {/* text */}
                     <motion.div
                         variants={fadeIn("left", 0.5)}
@@ -31,7 +41,7 @@ const Experience = () => {
                         className="flex-1"
                     >
                         {/* <h2 className="h2 text-accent"> My Experience.</h2> */}
-                        <h2 className="h2 leading-tight text-accent">My Experience</h2>
+                        {/* <h2 className="h2 leading-tight text-accent">My Experience</h2> */}
                         <h3 className="h3 leading-tight text-[#3db013]">1. Proactive for Her (SDE-Intern)</h3>
                         <p className="mb-10 text-xl">
                             <ul type="square">
@@ -66,7 +76,7 @@ const Experience = () => {
                             <div>
                                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                                     {inView ? <CountUp start={0} end={25} duration={1} suffix="%" /> : null}
-                                    
+
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Increased <br />
@@ -75,7 +85,7 @@ const Experience = () => {
                             </div>
                             <div>
                                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                                    {inView ? <CountUp start={0} end={20} duration={3} suffix="%"/> : null}+
+                                    {inView ? <CountUp start={0} end={20} duration={3} suffix="%" /> : null}+
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Enrolled <br />
@@ -84,7 +94,7 @@ const Experience = () => {
                             </div>
                             <div>
                                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                                    {inView ? <CountUp start={0} end={30} duration={2} suffix="%"/> : null}+
+                                    {inView ? <CountUp start={0} end={30} duration={2} suffix="%" /> : null}+
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Increased <br />

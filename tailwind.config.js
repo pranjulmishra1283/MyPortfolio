@@ -27,6 +27,7 @@ module.exports = {
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
         academics: "url('./assets/academics.png')",
+        experience: "url('./assets/experience.jpg')", // Use lowercase 'experience'
       },
     },
   },
