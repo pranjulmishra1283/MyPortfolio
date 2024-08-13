@@ -86,7 +86,7 @@ const About = () => {
                 </button>
               </a>
               <a
-                href="https://drive.google.com/drive/folders/1_kut4TtP0xWN_2_93Uv3a8UOZjHm4VDJ?usp=sharing"
+                href="https://drive.google.com/drive/folders/1yFEClBJl3NHq2PDHxPu8doUE0eikkzDq?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gradient btn-link"

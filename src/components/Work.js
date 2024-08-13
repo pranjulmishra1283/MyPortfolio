@@ -18,13 +18,14 @@ const Work = () => {
                 Projects.
               </h2>
               <p className="max-w-sm mb-10">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
-                sequi corrupti dolorem suscipit facere nisi molestiae fuga quos
-                iure veniam!sassasasasasasadvregergref
+              Showcasing my full-stack development expertise through projects that 
+              blend intuitive front-end design with robust back-end architecture, 
+              delivering seamless user experiences and efficient, scalable 
+              solutions using modern web technologies.
               </p>
               <button
                 onClick={() => {
-                  window.open("https://github.com/Khaliq-786?tab=repositories");
+                  window.open("https://github.com/pranjulmishra1283");
                 }}
                 className="btn btn-sm"
               >

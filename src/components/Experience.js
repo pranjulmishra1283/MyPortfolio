@@ -75,7 +75,7 @@ const Experience = () => {
                         <div className="flex gap-x-6 lg:gap-x-10 mb-12">
                             <div>
                                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                                    {inView ? <CountUp start={0} end={25} duration={1} suffix="%" /> : null}
+                                    {inView ? <CountUp start={0} end={5} duration={1} suffix="%" /> : null}
 
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
@@ -85,7 +85,7 @@ const Experience = () => {
                             </div>
                             <div>
                                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                                    {inView ? <CountUp start={0} end={20} duration={3} suffix="%" /> : null}+
+                                    {inView ? <CountUp start={0} end={2} duration={3} suffix="%" /> : null}
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Enrolled <br />
@@ -94,7 +94,7 @@ const Experience = () => {
                             </div>
                             <div>
                                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                                    {inView ? <CountUp start={0} end={30} duration={2} suffix="%" /> : null}+
+                                    {inView ? <CountUp start={0} end={3} duration={2} suffix="%" /> : null}
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Increased <br />
@@ -116,7 +116,7 @@ const Experience = () => {
                 </button>
               </a> */}
                             <a
-                                href="https://drive.google.com/drive/folders/1_kut4TtP0xWN_2_93Uv3a8UOZjHm4VDJ?usp=sharing"
+                                href="https://drive.google.com/file/d/1S_isWJx4ad_vLMw2joIlUY886F5pl6Rb/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gradient btn-link"

@@ -17,11 +17,11 @@ const Header = () => {
           {/* Button */}
           <button className="btn btn-sm">
             <a
-              href="mailto:pranjulmishra1283@gmail.com"
+              href="https://drive.google.com/file/d/1yGpmk-a_nEbMeApIAhWwm0KuZL_mxbjC/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Work with me
+              My Resume
             </a>
           </button>
         </div>
