@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "../assets/avatar.jpg";
-import cf from "../assets/codeforces.svg";
-import interviewbit from "../assets/interviewbit.svg";
-import leetcode from "../assets/leetcode.svg";
-import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import {FaEnvelope, FaLinkedin} from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
