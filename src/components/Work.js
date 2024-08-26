@@ -35,8 +35,8 @@ const Work = () => {
             {/* image */}
             <motion.div
               onClick={() => {
-                window.open("https://github.com/Khaliq-786/Minder");
-                window.open("https://github.com/Khaliq-786/Minder-backend/");
+                window.open("https://github.com/pranjulmishra1283/Fling");
+                // window.open("https://github.com/Khaliq-786/Minder-backend/");
               }}
               variants={fadeIn("right", 0.2)}
               initial="hidden"
@@ -54,7 +54,7 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-32 transition-all duration-500 z-50">
-                <span className="text-gradient text-3xl">Minder</span>
+                <span className="text-gradient text-3xl">Fling</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -68,7 +68,7 @@ const Work = () => {
             {/* image */}
             <motion.div
               onClick={() => {
-                window.open("https://github.com/Khaliq-786/crypto-mate-1");
+                window.open("https://github.com/pranjulmishra1283/Expense-Tracker");
               }}
               variants={fadeIn("left", 0.2)}
               initial="hidden"
@@ -86,19 +86,19 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-32 transition-all duration-500 z-50">
-                <span className="text-gradient text-3xl">Crypto-Mate</span>
+                <span className="text-gradient text-3xl">Expense Tracker</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-lg text-white">
-                  Your Real-Time Crypto Exchange & News Hub
+                Finance Was Never This Easy | Earn | Spend | Save.
                 </span>
               </div>
             </motion.div>
             {/* image */}
             <motion.div
               onClick={() => {
-                window.open("https://github.com/Khaliq-786/RAY");
+                window.open("https://github.com/pranjulmishra1283/PintrestClone");
               }}
               variants={fadeIn("left", 0.2)}
               initial="hidden"
@@ -116,13 +116,12 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-40 transition-all duration-500 z-50">
-                <span className="text-gradient text-3xl">RAY</span>
+                <span className="text-gradient text-3xl">Pinterest Clone</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-lg text-white">
-                  A line and wall follwoing bot built using arduino board and
-                  various sensors.
+                  Explore the Best of the Ideas.
                 </span>
               </div>
             </motion.div>
